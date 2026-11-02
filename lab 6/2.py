@@ -1,8 +1,8 @@
 n = int(input())
-divisor = 2
-while divisor * divisor <= n and n % divisor != 0:
-    divisor += 1
-if n > 1 and divisor * divisor > n:
+chislo = 2
+while chislo * chislo <= n and n % chislo != 0:
+    chislo += 1
+if n > 1 and chislo * chislo > n:
     print("Простое")
 else:
     print("Не простое")
